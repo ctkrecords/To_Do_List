@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>To-Do List</title>
+	<link rel="stylesheet" type="text/css" href="estilo_to-do.css">
+</head>
+<body>
+	<div id="main">
+		<h2>Bienvenid@!, en este espacio podrás registrar las tareas o actividades que desees realizar</h2>
+		<div id="otra">
+		<p>NOTA: AL FINALIZAR LA TAREA SOLO DEBES HACER DOBLE CLICK SOBRE ELLA, Y ESTA SE ELIMINARÁ DE MANERA AUTOMÁTICA</p>
+	</div>
+	</div>
+	<br>
+	<div id="campos">
+		<input type="text" name="tarea" placeholder="Tarea a realizar" required="true"> 
+		<button type="button" name="agregar" id="agregar" onclick="completarCampo()">Agregar tarea</button>
+	</div>
+	<br>
+	<div id="campoVacio">
+		<p></p>
+	</div>
+<script type="text/javascript" src="script_to-do.js"></script>
+</body>
+</html>
